@@ -1,9 +1,12 @@
-import { Route } from 'react-router';
+import { Route, IndexRoute } from 'react-router'
 
-import todoRoutes from 'TodoApp/client/routes'
+import TodoApp from 'TodoApp/client/TodoApp'
+import ChessComponent from 'TodoApp/client/ChessComponent'
 
 ReactRouterSSR.Run(
   <Route>
-    {todoRoutes}
+    <Route path="/" component={TodoApp}>
+      <IndexRoute component={ChessComponent} />
+    </Route>
   </Route>
-);
+)

@@ -1,5 +1,3 @@
-var webpack = require('webpack');
-
 module.exports = {
   externals: {
     // Make sure we use Meteor package for react and react-router
