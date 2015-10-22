@@ -7,6 +7,7 @@ export default class TodoApp extends Component {
 
   componentWillMount() {
     require('./css/TodoApp.import.css');
+    require('./css/chessboardjs.import.css');
   }
 
   render() {

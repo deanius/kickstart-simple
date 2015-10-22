@@ -18,9 +18,8 @@ export default class ChessComponent extends Component {
            a1:"wR", b1:"wN", c1:"wB", d1:"wQ", e1:"wK", f1:"wB", g1:"wN", h1:"wR"}
     })
   }
-  
+
   render() {
-    //console.log("ChessBoard", ChessBoard)
     return <div id="chessboard-div"/>
   }
 };
